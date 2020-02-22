@@ -1,0 +1,40 @@
+body{
+	background:white; 
+	color 		 : black;
+	font-size    : medium;
+	position     : absolute;
+	margin       : 42px;
+	background   : #ffffff none repeat;
+}h1 {
+	text-align   : center;
+	font-weight  : normal;
+	color        : #000099;
+	background   : transparent none repeat;
+}
+a:link{
+	color:green;
+}
+a:visited{
+	color:black;
+}
+a:active{
+	color:yellow;
+}
+p{
+	text-align: left;
+}
+.center {
+	text-align   : center;
+}
+.scene {
+	text-align   : center;
+	color        : #000099;
+	background   : #dddddd none repeat;
+}.commercial{
+	font-weight: bold;
+	text-align: center;
+}.character{
+	font-weight: bold;
+}.unseen{
+	color: blue;
+}
