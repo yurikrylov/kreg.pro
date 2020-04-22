@@ -1,0 +1,11 @@
+body {
+	 font-family: 'Noto Serif', serif; color: #444; 
+}
+.custom-container{
+	margin-top: 80px;
+}
+.footer{
+	max-width: inherit;
+}
+
+
