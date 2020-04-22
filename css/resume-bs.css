@@ -33,7 +33,6 @@ a{
  	border: solid #666; 
  	border-width: 8px 0 2px 0; 
 }
-
  #hd {
  	margin: 2.5em 0 3em 0;
 	padding-bottom: 1.5em;
@@ -47,7 +46,6 @@ a{
  .italic {
 	font-style: italic;
 }
-
 .talent h3 { 
 	margin-bottom: 6px; 
 	font-weight: normal;
@@ -70,7 +68,33 @@ a{
 	max-width: 32%;
 	flex: 0 0 32%;
 }
-
 .contact-info { margin-top: 7px; 
 font-size: 122%;
 }
+.job h4{
+	position: absolute;
+	top: 0.35em;
+	right: 0;
+}
+.job{
+	position: relative;
+margin-bottom: 1em;
+padding-bottom: 1em;
+border-bottom: 1px solid #ccc;
+}
+.addeduc{
+position: relative;
+margin-bottom: 1em;
+padding-bottom: 1em;
+border-bottom: 1px solid #ccc;	
+}
+.addeduc h3{
+	font-size: initial;
+}
+.addeduc h4{
+	position: absolute;
+	top: 0.35em;
+	right: 0;
+	font-size: initial;
+}
+.last{border-bottom: none;}
