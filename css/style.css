@@ -1,3 +1,137 @@
+/* cv */
+.custom-container{
+	margin-top: 80px;
+	font-family: 'Noto Serif', serif; color: #444;
+}
+h1 {
+	font-size: 48px;
+ 	text-transform: uppercase; 
+ 	letter-spacing: 3px; 
+ 	color: #333;
+}
+h2 { 
+	text-transform: uppercase; 
+	letter-spacing: 2px; 
+	font-size: 152% ;
+	color: #333;
+}
+h3  { 
+	color: #333;
+	font-size: 152% ;
+}
+h4 { 
+	font-size: 122%; 
+	color: #333;
+}
+a{
+	color: #990003;
+	font-weight: normal;
+}
+#inner { 
+	padding: 10px 80px; 
+	margin: 80px auto;
+	background: #f5f5f5;
+ 	border: solid #666; 
+ 	border-width: 8px 0 2px 0; 
+}
+ #hd {
+ 	margin: 2.5em 0 3em 0;
+	padding-bottom: 1.5em;
+	border-bottom: 1px solid #ccc;
+ }
+ .bb-solid{
+ 	margin-bottom: 2em;
+	padding-bottom: 2em;
+ 	border-bottom: 1px solid #ccc;
+ }
+ .italic {
+	font-style: italic;
+}
+.talent h3 { 
+	margin-bottom: 6px; 
+	font-weight: normal;
+}
+.tech{
+ 	margin-bottom: 0;
+	padding-bottom: 0;
+ 	border-bottom: 1px solid #ccc;	
+ 	font-size: small;
+ 	text-align: left;
+}
+.tech-last{
+ 	margin-bottom: 0;
+	padding-bottom: 0;
+ 	border-bottom: none;	
+ 	font-size: small;
+ 	text-align: left;
+ }
+.onethird{
+	max-width: 32%;
+	flex: 0 0 32%;
+}
+.contact-info { margin-top: 7px; 
+font-size: 122%;
+}
+.job h4{
+	position: absolute;
+	top: 0.35em;
+	right: 0;
+}
+.job{
+	position: relative;
+margin-bottom: 1em;
+padding-bottom: 1em;
+border-bottom: 1px solid #ccc;
+}
+.addeduc{
+position: relative;
+margin-bottom: 1em;
+padding-bottom: 1em;
+border-bottom: 1px solid #ccc;	
+}
+.addeduc h3{
+	font-size: initial;
+}
+.addeduc h4{
+	position: absolute;
+	top: 0.35em;
+	right: 0;
+	font-size: initial;
+}
+.last{border-bottom: none;}
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+	position: relative;
+	min-height: 100%;
+  }
+  body {
+	margin-bottom: 60px; /* Margin bottom by footer height */
+  }
+  .footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 60px; /* Set the fixed height of the footer here */
+	line-height: 60px; /* Vertically center the text there */
+	background-color: #f5f5f5;
+  }
+  
+  
+  /* Custom page CSS
+  -------------------------------------------------- */
+  /* Not required for template or sticky footer method. */
+  
+  .container {
+	width: auto;
+/*	max-width: 680px;*/
+	padding: 0 15px;
+  }
+
+  /*custom */
+
 body {
 	 font-family: 'Noto Serif', serif; color: #444; 
 }
