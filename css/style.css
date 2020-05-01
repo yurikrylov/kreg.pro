@@ -79,15 +79,15 @@ font-size: 122%;
 }
 .job{
 	position: relative;
-margin-bottom: 1em;
-padding-bottom: 1em;
-border-bottom: 1px solid #ccc;
+	margin-bottom: 1em;
+	padding-bottom: 1em;
+	border-bottom: 1px solid #ccc;
 }
 .addeduc{
-position: relative;
-margin-bottom: 1em;
-padding-bottom: 1em;
-border-bottom: 1px solid #ccc;	
+	position: relative;
+	margin-bottom: 1em;
+	padding-bottom: 1em;
+	border-bottom: 1px solid #ccc;	
 }
 .addeduc h3{
 	font-size: initial;
@@ -98,18 +98,19 @@ border-bottom: 1px solid #ccc;
 	right: 0;
 	font-size: initial;
 }
-.last{border-bottom: none;}
+.last{
+	border-bottom: none;
+}
 
 
-/* Sticky footer styles
--------------------------------------------------- */
+/* Sticky footer styles */
 html {
 	position: relative;
 	min-height: 100%;
-  }
+}
   body {
 	margin-bottom: 60px; /* Margin bottom by footer height */
-  }
+}
   .footer {
 	position: absolute;
 	bottom: 0;
@@ -117,23 +118,16 @@ html {
 	height: 60px; /* Set the fixed height of the footer here */
 	line-height: 60px; /* Vertically center the text there */
 	background-color: #f5f5f5;
-  }
+}
   
-  
-  /* Custom page CSS
-  -------------------------------------------------- */
-  /* Not required for template or sticky footer method. */
-  
-  .container {
-	width: auto;
-/*	max-width: 680px;*/
-	padding: 0 15px;
-  }
-
-  /*custom */
+/* custom */
 
 body {
 	 font-family: 'Noto Serif', serif; color: #444; 
+}
+.container {
+	width: auto;
+	padding: 0 15px;
 }
 .custom-container{
 	margin-top: 80px;
@@ -141,3 +135,24 @@ body {
 .footer{
 	max-width: inherit;
 }
+
+.middle a {
+	text-decoration: none;
+	font-size: 1em;
+	position: relative;
+	transition: all 0.6s;
+  }
+  .middle a:before {
+	content: "";
+	width: 0;
+	height: 0.1em;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	background: #00aeff;
+	transition: all 0.3s;
+  }
+  .middle a:hover:before {
+	width: 100%;
+	left: 0;
+	background: #990003;
