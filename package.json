@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "author": "Yuri Krylov yuri.krylov@gmail.com",
   "dependencies": {
-    "popper.js": "^1.16.1",
+    "bootstrap": "^4.5.3",
     "jquery": "^3.5.1",
-    "bootstrap": "^4.5.2"
-   },
+    "popper.js": "^1.16.1"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/yurikrylov/kreg.pro.git"
